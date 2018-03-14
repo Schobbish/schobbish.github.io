@@ -3,7 +3,7 @@
 			<table><tr>
 				<td id="contact">
 					<h2>Contact Me!</h2>
-					<form method="post" action="/~AdamN/index/contact.php" id="contact-form">
+					<form method="post" action="/index/contact.php" id="contact-form">
 						<input type="text" name="name" placeholder="Your Name">
 						<input type="text" name="email" placeholder="Your Email">
 						<input type="text" name="subject" placeholder="Subject">
@@ -12,13 +12,13 @@
                   <!-- contact.js requires a value for each child of the form -->
 					</form>
 				</td>
-				<td id="logo"><a href="/~AdamN/about/">
-					<img src="/~AdamN/index/images/logo.png" alt="Duck Wizard Studios' logo">
+				<td id="logo"><a href="/about/">
+					<img src="/index/images/logo.png" alt="Duck Wizard Studios' logo">
 				</a></td>
 				<td id="license">
 					<div id="license-icons">
-						<img src="/~AdamN/index/images/cc.png" alt="creative commons">
-						<img src="/~AdamN/index/images/by.png" alt="attribution">
+						<img src="/index/images/cc.png" alt="creative commons">
+						<img src="/index/images/by.png" alt="attribution">
 					</div>
 					<p>Unless otherwise noted,
 						<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Duck Wizard Studios' websites</span> are by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Nathaniel Adam</span> and are licensed
@@ -31,32 +31,32 @@
 
 	<!-- the menu -->
 	<div off-canvas="id-1 left push">
-		<a href="/~AdamN/" class="menu-links">
-			<img src="/~AdamN/index/images/home.png" alt="home icon">Home
+		<a href="/" class="menu-links">
+			<img src="/index/images/home.png" alt="home icon">Home
 		</a>
-		<a href="/~AdamN/sitemap/" class="menu-links">
-			<img src="/~AdamN/index/images/sitemap.png" alt="sitemap icon">The Sitemap
+		<a href="/sitemap/" class="menu-links">
+			<img src="/index/images/sitemap.png" alt="sitemap icon">The Sitemap
 		</a>
-      <a href="/~AdamN/music/" class="menu-links">
-         <img src="/~AdamN/index/images/music.png" alt="music icon">Music Collection
+      <a href="/music/" class="menu-links">
+         <img src="/index/images/music.png" alt="music icon">Music Collection
       </a>
-      <a href="/~AdamN/dog/" class="menu-links">
-         <img src="/~AdamN/index/images/dog.png" alt="dog">Dog
+      <a href="/dog/" class="menu-links">
+         <img src="/index/images/dog.png" alt="dog">Dog
       </a>
-		<a href="/~AdamN/gallery/" class="menu-links">
-			<img src="/~AdamN/index/images/gallery.png" alt="gallery icon">The Gallery
+		<a href="/gallery/" class="menu-links">
+			<img src="/index/images/gallery.png" alt="gallery icon">The Gallery
 		</a>
-		<a href="/~AdamN/contact/" class="menu-links">
-			<img src="/~AdamN/index/images/contact.png" alt="contact icon">Contact Me
+		<a href="/contact/" class="menu-links">
+			<img src="/index/images/contact.png" alt="contact icon">Contact Me
 		</a>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-   <script src="http://www.etch.wlwv.k12.or.us/~AdamN/index/jquery.color-2.1.2.min.js"></script>
-	<script src="/~AdamN/index/Slidebars/dev/slidebars.js"></script>
+   <script src="http://www.etch.wlwv.k12.or.us/index/jquery.color-2.1.2.min.js"></script>
+	<script src="/index/Slidebars/dev/slidebars.js"></script>
 	<!-- ScrollMe is not used yet
-   <script src="/~AdamN/index/scrollme/jquery.scrollme.js"></script>-->
-	<script src="/~AdamN/index/contact.js"></script>
-	<script src="/~AdamN/index/favicon.js"></script>
-	<script src="/~AdamN/index/index.js"></script>
+   <script src="/index/scrollme/jquery.scrollme.js"></script>-->
+	<script src="/index/contact.js"></script>
+	<script src="/index/favicon.js"></script>
+	<script src="/index/index.js"></script>
 </body>
 </html>
