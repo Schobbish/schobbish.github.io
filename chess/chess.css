@@ -1,0 +1,86 @@
+table {
+	border: 1px solid black;
+	padding: 0px;
+	border-spacing: 0px;
+	margin: auto;
+	margin-top: 64px;
+}
+td.w {
+	background-color: #ffffff;
+}
+td.b {
+	background-color: #cccccc;
+}
+td {
+	height: 45px;
+	width: 45px;
+	border: 2px solid transparent;
+	padding: 0px;
+	margin: 0px;
+}
+.br1, .br2 {
+	background-image: url("pics/br.svg");
+}
+.bn1, .bn2 {
+	background-image: url("pics/bn.svg");
+}
+.bb1, .bb2 {
+	background-image: url("pics/bb.svg");
+}
+.bq {
+	background-image: url("pics/bq.svg");
+}
+.bk {
+	background-image: url("pics/bk.svg");
+}
+.bp1, .bp2, .bp3, .bp4, .bp5, .bp6, .bp7, .bp8 {
+	background-image: url("pics/bp.svg");
+}
+.wr1, .wr2 {
+	background-image: url("pics/wr.svg");
+}
+.wn1, .wn2 {
+	background-image: url("pics/wn.svg");
+}
+.wb1, .wb2 {
+	background-image: url("pics/wb.svg");
+}
+.wq {
+	background-image: url("pics/wq.svg");
+}
+.wk {
+	background-image: url("pics/wk.svg");
+}
+.wp1, .wp2, .wp3, .wp4, .wp5, .wp6, .wp7, .wp8 {
+	background-image: url("pics/wp.svg");
+}
+.selected {
+	border: 2px solid black;
+}
+
+div.text {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+h1 {
+	font-family: 'Source Serif Pro', 'Georgia', 'Times New Roman', serif;
+}
+p {
+	font-family: 'Source Sans Pro', 'Helvetica Neue', 'Arial', serif;
+}
+a {
+	color: black;
+}
+p#license, p#about, p#license a, p#about a {
+	color: #cccccc;
+}
+br {
+	height: 15px;
+}
+p#trigger {
+	text-align: center;
+	position: fixed;
+	bottom: 10px;
+	left: 50%;
+}

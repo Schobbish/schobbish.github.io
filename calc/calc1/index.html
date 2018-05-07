@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head><title>The Stupid Calculator</title>
+<style>
+div {
+	display: block;
+	margin-left: 25%;
+	margin-top: 50%;
+	margin-bottom: 50%;
+}
+</style>
+</head>
+<body>
+<div>
+<h1>The Stupid Calculator</h1>
+<p>Look, I didn't even use CSS!</p>
+<!-- First block of buttons -->
+<p>First, click one of these buttons (first number)</p>
+<button onclick="vu1()">1</button>
+<button onclick="vu2()">2</button>
+<button onclick="vu3()">3</button><br>
+<button onclick="vu4()">4</button>
+<button onclick="vu5()">5</button>
+<button onclick="vu6()">6</button><br>
+<button onclick="vu7()">7</button>
+<button onclick="vu8()">8</button>
+<button onclick="vu9()">9</button>
+
+<!-- Second block of buttons -->
+<p>Then click one of these buttons (second number)</p>
+<button onclick="vd1()">1</button>
+<button onclick="vd2()">2</button>
+<button onclick="vd3()">3</button><br>
+<button onclick="vd4()">4</button>
+<button onclick="vd5()">5</button>
+<button onclick="vd6()">6</button><br>
+<button onclick="vd7()">7</button>
+<button onclick="vd8()">8</button>
+<button onclick="vd9()">9</button>
+
+<!-- Third block of buttons -->
+<p>Finally press one of these buttons</p>
+<button onclick="add()">+</button>
+<button onclick="sub()">-</button>
+<button onclick="mul()">*</button>
+<button onclick="div()">/</button>
+
+<p>Your answer is below!</p>
+<p id="ans"></p>
+
+<script>
+// Declaring variables
+var vu;
+var vd;
+
+// First block of buttons
+function vu1() {vu = 1};
+function vu2() {vu = 2};
+function vu3() {vu = 3};
+function vu4() {vu = 4};
+function vu5() {vu = 5};
+function vu6() {vu = 6};
+function vu7() {vu = 7};
+function vu8() {vu = 8};
+function vu9() {vu = 9};
+
+// Second block of buttons
+function vd1() {vd = 1};
+function vd2() {vd = 2};
+function vd3() {vd = 3};
+function vd4() {vd = 4};
+function vd5() {vd = 5};
+function vd6() {vd = 6};
+function vd7() {vd = 7};
+function vd8() {vd = 8};
+function vd9() {vd = 9};
+
+// Third block of buttons
+function add() {
+document.getElementById("ans").innerHTML=vu + vd
+};
+function sub() {
+document.getElementById("ans").innerHTML=vu - vd
+};
+function mul() {
+document.getElementById("ans").innerHTML=vu * vd
+};
+function div() {
+document.getElementById("ans").innerHTML=vu / vd
+};
+
+</script>
+</div>
+</body>
+</html>

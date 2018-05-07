@@ -1,0 +1,33 @@
+* { /* clears some defaults */
+   margin: 0;
+   padding: 0;
+}
+
+h1, h3, p {
+   margin: 20px;
+   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+table {
+   margin: 50px;
+}
+td {
+   width: 85px;
+   height: 25px;
+   border: 1px solid black;
+   border-collapse: collapse;
+   padding: 5px;
+   margin: 0;
+   font-family: 'Source Code Pro', monospace;
+   font-size: 14px;
+   text-align: center;
+}
+.randInt {
+   font-size: 11px;
+}
+input {
+   border-color: white;
+   border-style: none;
+   width: 100%;
+   font-family: 'Source Code Pro', monospace;
+   font-size: 14px;
+}

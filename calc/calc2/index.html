@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Dumb Calculator</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%7CSource+Code+Pro" rel="stylesheet" type="text/css">
+  <link href="calc2css.css" rel="stylesheet">
+  <meta charset="UTF-8">
+</head>
+<body>
+  <h1>The Dumb Calculator</h1>
+  <h3>A sequel to <a href="http://www.etch.wlwv.k12.or.us/~AdamN/calc/calc1/index.html" target="_blank">The Stupid Calculator</a></h3>
+  <p class="small">Link may be broken! Will open in new tab.</p>
+  <p>Look, I used CSS!</p>
+  <div class="calculator">
+    <table class="equation">
+      <tr>
+        <td><p class="first">??</p></td>
+        <td><p class="op">??</p></td>
+        <td><p class="second">??</p></td>
+        <td><p>=</p></td>
+        <td><p class="ans">??</p></td>
+     </tr>
+    </table><br>
+    <table class="buttons">
+      <tr>
+        <td colspan="2" class="reset">RESET</td>
+        <td colspan="2" class="clear">CLEAR</td>
+      </tr>
+      <tr>
+        <td class="store">STORE VAR</td>
+        <td class="clearvar">CLEAR VAR</td>
+        <td class="var">USE VAR</td>
+        <td class="divide">/</td>
+      </tr>
+      <tr>
+        <td class="seven">7</td>
+        <td class="eight">8</td>
+        <td class="nine">9</td>
+        <td class="multiply">*</td>
+      </tr>
+      <tr>
+        <td class="four">4</td>
+        <td class="five">5</td>
+        <td class="six">6</td>
+        <td class="subtract">-</td>
+      </tr>
+      <tr>
+        <td class="one">1</td>
+        <td class="two">2</td>
+        <td class="three">3</td>
+        <td class="add">+</td>
+      </tr>
+      <tr>
+        <td class="zero">0</td>
+        <td class="switch">+/-</td>
+        <td colspan="2" class="equals">ENTER</td>
+      </tr>
+    </table>
+  </div>
+  <div style="height: 400px;"></div>
+  <p>Need help? Then scroll down! License info and stuff like that's down there too.</p>
+  <br><br><br><br><br><br><hr><br>
+  <p>Basically, you can click a number, click an operator, click another number, then click <span class="optext">ENTER</span>.</p>
+  <p>Clicking "<span class="optext">CLEAR</span>" will clear the equation. Clicking "<span class="optext">RESET</span>" will reset the calculator.</p>
+  <p>You can only input single-digit numbers but it is possible to use any real number as the first number if you do it correctly.</p>
+  <p>"<span class="optext">+</span>" means plus or add, "<span class="optext">-</span>" means minus or subtract, "<span class="optext">*</span>" means times or multiply, and "<span class="optext">/</span>" means divide or, uhm, divide.</p>
+  <p>"<span class="optext">+/-</span>" will switch the number from being positive or negative. Use it right after clicking a number to switch the sign of that number.</p>
+  <br>
+  <p>If you click another number right after clicking <span class="optext">ENTER</span> it will change the second number. Clicking <span class="optext">ENTER</span> after that will calculate it with that number.</p>
+  <p>Clicking an operator again after clicking <span class="optext">ENTER</span> will make the previous answer the first number, and then you can enter in the second number.</p>
+  <p>If you select another operator right after selecting an operator it will change the operator to the new number. Same with numbers.</p>
+  <br>
+  <p>You have to click <span class="optext">STORE VAR</span> right after clicking a number or <span class="optext">ENTER</span>. Then it will store the number you just pressed, or the answer.</p>
+  <p><span class="optext">CLEAR VAR</span> will, of course, reset the memory to zero, but you can't use it until you store another number.</p>
+  <p>Use <span class="optext">VAR</span> like the other numbers. The button will only work after you store a number.</p>
+  <br>
+  <p>If you calculate an equation and click multiply or divide then click add or subtract it will change the first number to zero.</p>
+  <br><hr><br>
+
+<!--					Creative Commons License					-->
+  <table class="footer">
+    <tr>
+      <td colspan="2">
+        <p>Fonts used: <a href="https://www.google.com/fonts/specimen/Source+Sans+Pro" target="_blank">Source Sans Pro</a> (body text) and <a href="https://www.google.com/fonts/specimen/Source+Code+Pro" target="_blank">Source Code Pro</a> (calculator text).</p>
+      </td>
+    </tr>
+    <tr>
+      <td class="license">
+        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <br><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+      </td>
+      <td class="html5">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png" alt="HTML5 Badge">
+      </td>
+    </tr>
+  </table>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="calc2js.js"></script>
+  </body>
+</html>

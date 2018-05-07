@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simple Chess</title>
+	<link href="chess.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%7CSource+Serif+Pro" rel="stylesheet">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+	<div id="container">
+		<table>
+			<!--
+				td class is for what color the tile is
+				1st letter div class idenitifes if it's a white/black piece (w/b)
+				2nd letter div class is for what type of piece it is
+				(r=rook, n=knight, b=bishop, q=queen, k=king, p=pawn)
+				number after letters make each piece unique
+
+				div's id is the x coordinate followed by the y coordinate,
+				with the lower left being 11
+
+				remember that the top row is first
+			-->
+			<tr>
+				<td class="w br1" id="18"></td>
+				<td class="b bn1" id="28"></td>
+				<td class="w bb1" id="38"></td>
+				<td class="b bq" id="48"></td>
+				<td class="w bk" id="58"></td>
+				<td class="b bb2" id="68"></td>
+				<td class="w bn2" id="78"></td>
+				<td class="b br2" id="88"></td>
+			</tr>
+			<tr>
+				<td class="b bp1" id="17"></td>
+				<td class="w bp2" id="27"></td>
+				<td class="b bp3" id="37"></td>
+				<td class="w bp4" id="47"></td>
+				<td class="b bp5" id="57"></td>
+				<td class="w bp6" id="67"></td>
+				<td class="b bp7" id="77"></td>
+				<td class="w bp8" id="87"></td>
+			</tr>
+			<tr>
+				<td class="w" id="16"></td>
+				<td class="b" id="26"></td>
+				<td class="w" id="36"></td>
+				<td class="b" id="46"></td>
+				<td class="w" id="56"></td>
+				<td class="b" id="66"></td>
+				<td class="w" id="76"></td>
+				<td class="b" id="86"></td>
+			</tr>
+			<tr>
+				<td class="b" id="15"></td>
+				<td class="w" id="25"></td>
+				<td class="b" id="35"></td>
+				<td class="w" id="45"></td>
+				<td class="b" id="55"></td>
+				<td class="w" id="65"></td>
+				<td class="b" id="75"></td>
+				<td class="w" id="85"></td>
+			</tr>
+			<tr>
+				<td class="w" id="14"></td>
+				<td class="b" id="24"></td>
+				<td class="w" id="34"></td>
+				<td class="b" id="44"></td>
+				<td class="w" id="54"></td>
+				<td class="b" id="64"></td>
+				<td class="w" id="74"></td>
+				<td class="b" id="84"></td>
+			</tr>
+			<tr>
+				<td class="b" id="13"></td>
+				<td class="w" id="23"></td>
+				<td class="b" id="33"></td>
+				<td class="w" id="43"></td>
+				<td class="b" id="53"></td>
+				<td class="w" id="63"></td>
+				<td class="b" id="73"></td>
+				<td class="w" id="83"></td>
+			</tr>
+			<tr>
+				<td class="w wp1" id="12"></td>
+				<td class="b wp2" id="22"></td>
+				<td class="w wp3" id="32"></td>
+				<td class="b wp4" id="42"></td>
+				<td class="w wp5" id="52"></td>
+				<td class="b wp6" id="62"></td>
+				<td class="w wp7" id="72"></td>
+				<td class="b wp8" id="82"></td>
+			</tr>
+			<tr>
+				<td class="b wr1" id="11"></td>
+				<td class="w wn1" id="21"></td>
+				<td class="b wb1" id="31"></td>
+				<td class="w wq" id="41"></td>
+				<td class="b wk" id="51"></td>
+				<td class="w wb2" id="61"></td>
+				<td class="b wn2" id="71"></td>
+				<td class="w wr2" id="81"></td>
+			</tr>
+		</table>
+		<div class="text">
+			<h1 id="whoseTurn">This requires JavaScript to run.</h1>
+			<p id="lastTurn">Last turn: </p><br>
+			<p id="about">Simple Chess was created by <a href="http://www.etch.wlwv.k12.or.us/~wlhs_student/adamn/" target="blank">Nathaniel Adam</a>.</p>
+			<p id="license">
+				The vectors of the chess pieces are made by Wikipedia user <a href="https://en.wikipedia.org/wiki/User:Cburnett" target="blank">Cburnett</a>. <br>
+				Both the website and those vectors are licensed under a <br>
+				<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="blank">Creative Commons Attribution-Share Alike</a> license.
+			</p>
+		</div>
+		<p id="trigger">...</p>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="chess.js"></script>
+</body>
+</html>
