@@ -1,7 +1,85 @@
 /* The monokai CSS depends on the css used for this repo's index. */
 * {
     color: #f8f8f2;
-    background-color: #282828;
+    background-color: #272822;
     /* add google fonts link for source code pro */
     font-family: "Source Code Pro", monospace
+}
+thead {
+    font-weight: bold;
+}
+hr {
+    border: 0.5px solid #49483E;
+}
+p, p a {
+    color: #49483e;
+    margin-top: 0;
+    font-size: 12px;
+}
+
+#f8f8f2 td {
+    color: #f8f8f2;
+}
+#f8f8f2 td:last-child {
+    background-color: #f8f8f2;
+}
+#f8f8f0 td {
+    color: #f8f8f0;
+}
+#f8f8f0 td:last-child {
+    background-color: #f8f8f0;
+}
+#h272822 td {
+    color: #f8f8f2;
+}
+#h272822 td:last-child {
+    background-color: #272822;
+}
+#h49483e td {
+    color: #49483e;
+}
+#h49483e td:last-child {
+    background-color: #49483e;
+}
+#h75715e td {
+    color: #75715e;
+}
+#h75715e td:last-child {
+    background-color: #75715e;
+}
+#f92672 td {
+    color: #f92672;
+}
+#f92672 td:last-child {
+    background-color: #f92672;
+}
+#fd921f td {
+    color: #fd921f;
+}
+#fd921f td:last-child {
+    background-color: #fd921f;
+}
+#e6db74 td {
+    color: #e6db74;
+}
+#e6db74 td:last-child {
+    background-color: #e6db74;
+}
+#a6e22e td {
+    color: #a6e22e;
+}
+#a6e22e td:last-child {
+    background-color: #a6e22e;
+}
+#h66d9ef td {
+    color: #66d9ef;
+}
+#h66d9ef td:last-child {
+    background-color: #66d9ef;
+}
+#a381ff td {
+    color: #a381ff;
+}
+#a381ff td:last-child {
+    background-color: #a381ff;
 }
