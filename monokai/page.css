@@ -1,0 +1,7 @@
+/* The monokai CSS depends on the css used for this repo's index. */
+* {
+    color: #f8f8f2;
+    background-color: #282828;
+    /* add google fonts link for source code pro */
+    font-family: "Source Code Pro", monospace
+}
