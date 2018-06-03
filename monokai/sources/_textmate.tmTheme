@@ -5,11 +5,11 @@
 	<key>gutterSettings</key>
 	<dict>
 		<key>background</key>
-		<string></string>
+		<string>#49483E</string>
 		<key>divider</key>
-		<string></string>
+		<string>#75715E</string>
 		<key>foreground</key>
-		<string></string>
+		<string>#75715E</string>
 	</dict>
 	<key>name</key>
 	<string>Monokai</string>
@@ -21,16 +21,17 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string></string>
+				<string>#272822</string>
 				<key>caret</key>
-				<string></string>
+				<string>#F8F8F0</string>
 				<key>foreground</key>
+				<string>#F8F8F2</string>
 				<key>invisibles</key>
-				<string></string>
+				<string>#49483E</string>
 				<key>lineHighlight</key>
-				<string></string>
+				<string>#49483E</string>
 				<key>selection</key>
-				<string></string>
+				<string>#49483E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -41,7 +42,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string></string>
+				<string>#75715E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -52,7 +53,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string></string>
+				<string>#E6DB74</string>
 			</dict>
 		</dict>
 		<dict>
@@ -63,7 +64,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string></string>
+				<string>#AE81FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -74,7 +75,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string></string>
+				<string>#AE81FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -85,7 +86,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string></string>
+				<string>#AE81FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -107,7 +108,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string></string>
+				<string>#F92672</string>
 			</dict>
 		</dict>
 		<dict>
@@ -120,7 +121,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string></string>
+				<string>#F92672</string>
 			</dict>
 		</dict>
 		<dict>
@@ -133,7 +134,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string></string>
+				<string>#66D9EF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -146,7 +147,7 @@
 				<key>fontStyle</key>
 				<string>underline</string>
 				<key>foreground</key>
-				<string></string>
+				<string>#A6E22E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -159,7 +160,7 @@
 				<key>fontStyle</key>
 				<string>italic underline</string>
 				<key>foreground</key>
-				<string></string>
+				<string>#A6E22E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -172,7 +173,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string></string>
+				<string>#A6E22E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -185,7 +186,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string></string>
+				<string>#FD971F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -198,7 +199,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string></string>
+				<string>#F92672</string>
 			</dict>
 		</dict>
 		<dict>
@@ -211,7 +212,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string></string>
+				<string>#A6E22E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -224,7 +225,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string></string>
+				<string>#66D9EF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -237,7 +238,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string></string>
+				<string>#66D9EF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -250,7 +251,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string></string>
+				<string>#66D9EF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -272,11 +273,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string></string>
+				<string>#F92672</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string></string>
+				<string>#F8F8F0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -287,9 +288,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string></string>
+				<string>#AE81FF</string>
 				<key>foreground</key>
-				<string></string>
+				<string>#F8F8F0</string>
 			</dict>
 		</dict>
 	</array>
