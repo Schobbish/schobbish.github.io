@@ -1,0 +1,18 @@
+header span {
+   font-weight: 600;
+}
+#sitemap {
+   margin: 2% 2% 4% 6%;
+   padding: 0;
+}
+li {
+   font-family: 'Montserrat';
+   font-size: 16px;
+}
+li a {
+   color: #000000;
+   text-decoration: underline;
+}
+li span, li span a {
+   color: #ff5252;
+}

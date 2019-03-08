@@ -1,0 +1,13 @@
+#contact {
+   display: none;
+}
+#logo img {
+   width: 70%;
+   margin: 15%;
+}
+#license {
+   width: 50%;
+}
+nav a h1 {
+   color: #282828;
+}

@@ -1,0 +1,45 @@
+#container {
+  width: 100%;
+}
+h1 {
+  font-family: "Source Serif Pro", "Times New Roman", serif;
+  font-size: 40px;
+  margin-left: 5%;
+  margin-top: 6%;
+}
+p {
+  margin-left: 5%;
+}
+p#follows { /*but do I actually want this*/
+  /*margin-bottom: 100%;*/
+}
+p, ul {
+  display: block;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 18px;
+  color: black;
+}
+ul#sitemap {
+  margin-top: 50px;
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+a {
+  color: #000000;
+}
+img {
+  display: block;
+  height: 150px;
+  float: right;
+  margin-bottom: 3%;
+  /*margin-top: 10%;*/
+}
+span {
+  color: red;
+}
+footer p {
+  margin-bottom: 50%;
+}
+span a, a span {
+   color: red;
+}

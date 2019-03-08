@@ -1,0 +1,21 @@
+header p {
+   display: block;
+   margin-right: 2%;
+   width: 61%;
+   float: left;
+}
+header img {
+   width: 28%;
+   float: right;
+}
+
+#about-website {
+   clear: both;
+   margin-bottom: 4%;
+}
+#about-website h3 {
+   font-size: 30px;
+   font-family: 'Source Serif Pro';
+   font-weight: 600;
+   margin-left: 6%;
+}

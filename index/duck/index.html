@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link href="https://fonts.googleapis.com/css?family=Boogaloo%7CMontserrat:400,700%7CSource+Serif+Pro:600" rel="stylesheet">
+	<link rel="stylesheet" href="assets/Slidebars/dev/slidebars.css">
+	<link rel="stylesheet" href="assets/css/master.css">
+	<link rel="stylesheet" href="assets/css/index.css">
+	<link rel="stylesheet" media="(max-width: 640px) and (orientation: portrait)" href="assets/css/master-phone.css">
+	<title>Duck Wizard Studios</title>
+</head>
+<body>
+	<div id="fixed-navigation" canvas="">
+		<nav>
+			<a id="menu-button" href="">
+				<img src="assets/images/triple-bars.png" alt="menu icon">
+				Menu
+			</a>
+			<a href="">
+				<h1>DUCK WIZARD STUDIOS</h1>
+			</a>
+		</nav>
+	</div>
+   <div canvas="container" id="container">
+
+		<div id="main">
+			<header>
+				<h2>Welcome to Duck Wizard Studios.</h2>
+				<p>Here you will find the highest quality websites known to mankind.</p>
+			</header>
+			<!--<img src="assets/images/sam.png" alt="sam's website">-->
+			<div id="buttons">
+				<a href="sitemap/" class="button">Browse the <span>Sitemap</span></a><br>
+				<a href="../library/" class="button"><span>Music</span> Library</a>
+			</div>
+		</div>
+        <footer>
+  			<table><tr>
+  				<td id="contact">
+  					<h2>Contact Me!</h2>
+  					<!-- <form method="post" action="/~AdamN/index/contact.php" id="contact-form"> -->
+  						<input type="text" name="name" placeholder="Your Name">
+  						<input type="text" name="email" placeholder="Your Email">
+  						<input type="text" name="subject" placeholder="Subject">
+  						<textarea name="message" placeholder="Message"></textarea>
+  						<input type="submit" id="submit" value="submit">
+                    <!-- contact.js requires a value for each child of the form -->
+  					<!-- </form> -->
+  				</td>
+  				<td id="logo"><a href="about/">
+  					<img src="assets/images/logo.png" alt="Duck Wizard Studios' logo">
+  				</a></td>
+  				<td id="license">
+  					<div id="license-icons">
+  						<img src="assets/images/cc.png" alt="creative commons">
+  						<img src="assets/images/by.png" alt="attribution">
+  					</div>
+  					<p>Unless otherwise noted,
+  						<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Duck Wizard Studios' websites</span> are by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Nathaniel Adam</span> and are licensed
+  						under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+  					<p>Icons made are by <a href="http://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> and are licensed under the same license.</p>
+  				</td>
+  			</tr></table>
+  		</footer>
+  	</div>
+
+  	<!-- the menu -->
+  	<div off-canvas="id-1 left push">
+  		<a href="" class="menu-links">
+  			<img src="assets/images/home.png" alt="home icon">Home
+  		</a>
+  		<a href="sitemap/" class="menu-links">
+  			<img src="assets/images/sitemap.png" alt="sitemap icon">The Sitemap
+  		</a>
+        <a href="../library/" class="menu-links">
+           <img src="assets/images/music.png" alt="music icon">Music Collection
+        </a>
+        <a href="../dog/" class="menu-links">
+           <img src="assets/images/dog.png" alt="dog">Dog
+        </a>
+  		<a href="gallery/" class="menu-links">
+  			<img src="assets/images/gallery.png" alt="gallery icon">The Gallery
+  		</a>
+  		<a href="contact/" class="menu-links">
+  			<img src="assets/images/contact.png" alt="contact icon">Contact Me
+  		</a>
+  	</div>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/jquery.color-2.1.2.min.js"></script>
+  	<script src="assets/Slidebars/dev/slidebars.js"></script>
+  	<!-- ScrollMe is not used yet
+     <script src="assets/js/scrollme/jquery.scrollme.js"></script>-->
+  	<script src="assets/js/contact.js"></script>
+  	<script src="assets/js/favicon.js"></script>
+  	<script src="assets/js/app.js"></script>
+	<script type="text/javascript">
+	// the path is different for different files so we put the function call here
+	faviconLinker('assets/favicons/')
+	</script>
+  </body>
+  </html>

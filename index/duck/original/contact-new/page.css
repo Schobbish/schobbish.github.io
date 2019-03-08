@@ -1,0 +1,24 @@
+/* for contact */
+/* override shadows and certain colors */
+#fixed-navigation, footer {
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+}
+body {
+   background-color: #242424;
+}
+#main p {
+   margin-top: 10%;
+   color: #e1e1e1;
+}
+#main p span {
+   color: #a1a1a1;
+}
+#icon-box {
+   margin: 5% 32% 2% 32%;
+}
+#main a img {
+   width: 30%;
+   margin: 1%;
+}
