@@ -13,7 +13,7 @@ body {
    margin-bottom: 10px;
 }
 .clock {
-    cursor: none;
+    /* cursor: none; */
 }
 footer {
    width: 100%;
