@@ -1,9 +1,8 @@
 $(document).ready(function() {
    // playing this can't be done with the jquery function
-   var audioBox = document.getElementById("audioBox");
    var d;
    var played;
-   audioBox.load();
+   document.getElementById("audioBox").load();
 
    // this will run fifty times a second (for accuracy)
    setInterval(function() {
@@ -20,7 +19,7 @@ $(document).ready(function() {
       // d.getDay() == 6 && (d.getHours() == 8 || d.getHours() == 20) && d.getMinutes() == 59 && d.getSeconds() == 29 && !played
       if(d.getDay() == 6 && (d.getHours() == 8 || d.getHours() == 20) && d.getMinutes() == 59 && d.getSeconds() == 29 && !played) {
          played = true;
-         audioBox.play();
+         document.getElementById("audioBox").play();
       }
    }, 20);
 });
