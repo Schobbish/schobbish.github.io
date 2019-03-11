@@ -17,8 +17,8 @@ $(document).ready(function() {
       }
       // if saturday and exactly at 8:59:29 (am or pm) and not played already
       // correct if statement:
-      // d.getDay() == 6 && (d.getHours() == 9 || d.getHours() == 21) && d.getMinutes() == 0 && d.getSeconds() == 29 && !played
-      if(d.getDay() == 6 && (d.getHours() == 9 || d.getHours() == 21) && d.getMinutes() == 0 && d.getSeconds() == 29 && !played) {
+      // d.getDay() == 6 && (d.getHours() == 8 || d.getHours() == 20) && d.getMinutes() == 59 && d.getSeconds() == 29 && !played
+      if(d.getDay() == 6 && (d.getHours() == 8 || d.getHours() == 20) && d.getMinutes() == 59 && d.getSeconds() == 29 && !played) {
          played = true;
          audioBox.play();
       }
