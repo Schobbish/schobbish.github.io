@@ -1,31 +1,33 @@
 body {
-   /* to actually resize text on ios */
-   -webkit-text-size-adjust: 100%;
+    /* to actually resize text on ios */
+    -webkit-text-size-adjust: 100%;
+    background-color: #fff;
 }
-#main *, textarea {
-   text-align: center;
-   font-family: 'Muli', sans-serif;
-   background-color: transparent;
+
+#main * {
+    background-color: transparent;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    color: #000;
 }
-.clock, .timer, .stopwatch, .countdown, .world {
-   font-size: 100px;
-   font-weight: 300;
-   margin-bottom: 10px;
-}
+
 .clock {
-    /* cursor: none; */
+    margin-bottom: 0.1em;
+    font-size: 6em;
+    font-weight: 300;
 }
+
 footer {
-   width: 100%;
-   position: fixed;
-   bottom: 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    font-size: 0.75em;
 }
 footer p, footer a {
-   font-family: 'Muli', sans-serif;
-   font-size: 10px;
-   text-align: center;
-   color: #dcdcdc;
+    color: #dcdcdc;
 }
 footer a:hover {
-   color: #c0c0c0;
+    color: #c0c0c0;
 }
