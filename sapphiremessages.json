@@ -1,0 +1,13 @@
+{
+  "version": "qwerty",
+  "messages": [
+    {
+      "text": "If you can't afford the meat, enjoy the rice and beans",
+      "mode": "random"
+    }, {
+      "text": "It's 5 o'clock",
+      "mode": "cron",
+      "cron": ["*", "17", "*", "*", "*"]
+    }
+  ]
+}
