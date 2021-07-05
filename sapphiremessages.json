@@ -1,13 +1,41 @@
 {
-  "version": "qwerty",
-  "messages": [
-    {
-      "text": "If you can't afford the meat, enjoy the rice and beans",
-      "mode": "random"
-    }, {
-      "text": "It's 5 o'clock",
-      "mode": "cron",
-      "cron": ["*", "17", "*", "*", "*"]
-    }
-  ]
+  "version": "2021-07-05",
+  "messages": {
+    "random": [
+      "\"Some people have a way with words, and some people have not way\" -Jake",
+      "Your mother was a hamster and your father smells of elderberries!",
+      "If you can't afford the rice and beans, enjoy the meat.",
+      "Don't ever, for any reason, do anything to anyone for any reason ever, no matter what.",
+      "Don't forget to water your tables!",
+      "Don't feed avocados to parrots!",
+      "Curse you Perry the Platypus!",
+      "Do you have a comrade?",
+      "\uD835\uDC7A\uD835\uDC6C\uD835\uDC6C \uD835\uDC80\uD835\uDC76\uD835\uDC7C \uD835\uDC7A\uD835\uDC77\uD835\uDC68\uD835\uDC6A\uD835\uDC6C \uD835\uDC6A\uD835\uDC76\uD835\uDC7E\uD835\uDC69\uD835\uDC76\uD835\uDC80...",
+      "ISO 8601 best date format",
+      "https://youtu.be/dQw4w9WgXcQ",
+      "https://youtu.be/rW6M8D41ZWU",
+      "Trogdor the Burninator",
+      "#freebritney",
+      "Welcome to the Stufford",
+      "There is a house in New Orleans",
+      "Natalie smells like grapes",
+      "Orange juice is the solution to everything",
+      "If there's time to lean, there's time to clean!",
+      "Not my job!",
+      "blue cheese has mold in it",
+      "NEXT MESSAGE!!",
+      "Congratulations!",
+      "Take care of yourself."
+    ],
+    "cron": [
+      {
+        "timespec": ["20", "16", "*", "*", "*"],
+        "text": "haha it's 4:20"
+      }
+    ]
+  },
+  "options": {
+    "chance": 0.05,
+    "autoupdate": true
+  }
 }
