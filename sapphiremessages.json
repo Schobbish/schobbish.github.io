@@ -1,5 +1,5 @@
 {
-  "version": "2021-07-05",
+  "version": "2021-07-06",
   "messages": {
     "random": [
       "\"Some people have a way with words, and some people have not way\" -Jake",
@@ -29,13 +29,13 @@
     ],
     "cron": [
       {
-        "timespec": ["20", "16", "*", "*", "*"],
+        "timespec": [20, 16, -1, -1, -1],
         "text": "haha it's 4:20"
       }
     ]
   },
   "options": {
-    "chance": 0.05,
+    "chance": 0.5,
     "autoupdate": true
   }
 }
