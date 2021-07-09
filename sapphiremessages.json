@@ -1,5 +1,5 @@
 {
-  "version": "2021-07-06b",
+  "version": "2021-07-09",
   "messages": {
     "random": [
       "\"Some people have a way with words, and some people have not way\" -Jake",
@@ -25,7 +25,13 @@
       "blue cheese has mold in it",
       "NEXT MESSAGE!!",
       "Congratulations!",
-      "Take care of yourself."
+      "Take care of yourself.",
+      "order corn",
+      "DISCUSTING",
+      "thog dont caare",
+      "Stay Clam!!",
+      "\"If you're bucket list is getting shorter, dream bigger -Your fearsome leader\"" ,
+      "\"If you don't fall for anything, you'll stand for something\""
     ],
     "cron": [
       {
