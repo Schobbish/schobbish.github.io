@@ -36,17 +36,31 @@
       "Flamingos are born white but turn pink because they eat shrimp or something.",
       "Did you know that this building is only 13 years old?",
       "Go ahead and pronounce the L in salmon. It's okay.",
-      "Welcome to the \uD83C\uDD71\u00E9lange"
+      "Welcome to the \uD83C\uDD71\u00E9lange",
+      "To submit suggestions or complaints please text 503-317-4546",
+      "Forget Gumwaa Have Funwaa"
     ],
     "cron": [
       {
         "timespec": [20, 16, -1, -1, -1],
         "text": "haha it's 4:20"
+      },
+      {
+        "timespec": [-1, -1, 24, 7, -1],
+        "text": "Happy Birthday Trystan!!"
+      },
+      {
+        "timespec": [-1, -1, 29, 7, -1],
+        "text": "Happy birthday to my man Kevin"
+      },
+      {
+        "timespec": [-1, 15, 19, 7, -1],
+        "text": "this is a test please ignore"
       }
     ]
   },
   "options": {
-    "chance": 0.1666666667,
+    "chance": 0.375,
     "autoupdate": true
   }
 }
