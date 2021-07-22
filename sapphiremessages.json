@@ -1,5 +1,5 @@
 {
-  "version": "2021-07-22",
+  "version": "2021-07-22b",
   "messages": {
     "random": [
       "\"Some people have a way with words, and some people have not way\" -Jake",
@@ -46,15 +46,15 @@
         "text": "haha it's 4:20"
       },
       {
-        "timespec": [-1, -1, 24, 7, -1],
+        "timespec": [-1, -1, 24, 6, -1],
         "text": "Happy Birthday Trystan!!"
       },
       {
-        "timespec": [-1, -1, 29, 7, -1],
+        "timespec": [-1, -1, 29, 6, -1],
         "text": "Happy birthday to my man Kevin"
       },
       {
-        "timespec": [-1, 15, 22, 7, -1],
+        "timespec": [-1, 15, 22, 6, -1],
         "text": "this is a test please ignore"
       }
     ]
