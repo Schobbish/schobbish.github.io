@@ -1,5 +1,5 @@
 {
-  "version": "2021-07-12",
+  "version": "2021-07-22",
   "messages": {
     "random": [
       "\"Some people have a way with words, and some people have not way\" -Jake",
@@ -11,7 +11,7 @@
       "Curse you Perry the Platypus!",
       "Do you have a comrade?",
       "\uD835\uDC7A\uD835\uDC6C\uD835\uDC6C \uD835\uDC80\uD835\uDC76\uD835\uDC7C \uD835\uDC7A\uD835\uDC77\uD835\uDC68\uD835\uDC6A\uD835\uDC6C \uD835\uDC6A\uD835\uDC76\uD835\uDC7E\uD835\uDC69\uD835\uDC76\uD835\uDC80...",
-      "ISO 8601 best date format",
+Cr      "ISO 8601 best date format",
       "https://youtu.be/dQw4w9WgXcQ",
       "https://youtu.be/rW6M8D41ZWU",
       "Trogdor the Burninator",
@@ -54,7 +54,7 @@
         "text": "Happy birthday to my man Kevin"
       },
       {
-        "timespec": [-1, 15, 19, 7, -1],
+        "timespec": [-1, 15, 22, 7, -1],
         "text": "this is a test please ignore"
       }
     ]
