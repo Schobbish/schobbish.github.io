@@ -1,5 +1,5 @@
 {
-  "version": "2021-07-22b",
+  "version": "2021-07-23",
   "messages": {
     "random": [
       "\"Some people have a way with words, and some people have not way\" -Jake",
@@ -52,10 +52,6 @@
       {
         "timespec": [-1, -1, 29, 6, -1],
         "text": "Happy birthday to my man Kevin!"
-      },
-      {
-        "timespec": [-1, -1, 23, 6, -1],
-        "text": "if you put in a dinner spec, you have to choose beef or chicken. sorry I forgor to change it yesterday"
       }
     ]
   },
