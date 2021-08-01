@@ -1,5 +1,5 @@
 {
-  "version": "2021-07-23",
+  "version": "2021-08-01",
   "messages": {
     "random": [
       "\"Some people have a way with words, and some people have not way\" -Jake",
@@ -38,7 +38,14 @@
       "Go ahead and pronounce the L in salmon. It's okay.",
       "Welcome to the \uD83C\uDD71\u00E9lange",
       "To submit suggestions or complaints please text 503-317-4546",
-      "Forget Gumwaa Have Funwaa"
+      "Forget Gumwaa Have Funwaa",
+      "Make it so."
+      "Why do they call it oven when you of in the cold food of our hot eat the food",
+      "I forgor\uD83D\uDC80",
+      "This is so sad can we hit 50 likes",
+      "This is so sad Alexa play Despacito",
+      "Are you living in the real world?",
+      "Count what you have now; don't count what you don't have"
     ],
     "cron": [
       {
@@ -52,6 +59,18 @@
       {
         "timespec": [-1, -1, 29, 6, -1],
         "text": "Happy birthday to my man Kevin!"
+      },
+      {
+        "timespec": [-1, -1, 3, 7, -1],
+        "text": "Happy Birthday Heather!!"
+      },
+      {
+        "timespec": [-1, -1, 10, 7, -1],
+        "text": "Happy Birthday Jesus!!"
+      },
+      {
+        "timespec": [-1, -1, 28, 7, -1],
+        "text": "Happy Birthday Ed!!!"
       }
     ]
   },
