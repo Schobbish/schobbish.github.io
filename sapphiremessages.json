@@ -1,5 +1,5 @@
 {
-  "version": "2021-08-01",
+  "version": "2021-08-06",
   "messages": {
     "random": [
       "\"Some people have a way with words, and some people have not way\" -Jake",
@@ -76,7 +76,7 @@
     ]
   },
   "options": {
-    "chance": 0.375,
+    "chance": 0.16666666667,
     "autoupdate": true
   }
 }
