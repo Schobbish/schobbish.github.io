@@ -1,5 +1,5 @@
 {
-  "version": "2021-08-06",
+  "version": "2021-08-15",
   "messages": {
     "random": [
       "\"Some people have a way with words, and some people have not way\" -Jake",
@@ -46,7 +46,14 @@
       "This is so sad Alexa play Despacito",
       "Are you living in the real world?",
       "Count what you have now; don't count what you don't have",
-      "READY TO GRIND"
+      "READY TO GRIND",
+      "That's just PanTastic\u2122!",
+      "Have a PanTastic\u2122 day!",
+      "Waffles are back!!",
+      "Not funny didn't laugh",
+      "No Laughing",
+      "This is a no laughing zone",
+      "$(\"textarea[name='messages'][cols='60'][readonly]\").text(\"message\");"
     ],
     "cron": [
       {
